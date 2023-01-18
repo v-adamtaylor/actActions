@@ -68,3 +68,4 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C317379802FC48C4A800BF2963BD0171 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
+          mynewvalue: 'this is a test'
