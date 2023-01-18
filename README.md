@@ -1,8 +1,8 @@
 # actActions
 
 To Do:
--Get Username & Password from Publish Profile
- ^-Use that in Azure CLI step to get Cred or Secret?
+-Get Username & Password from Publish Profile  
+ ^-Use that in Azure CLI step to get Cred or Secret?  
    -actually, you will not need that if you use the username & password??
    -So, use Azure CLI step to:
  -get & set username & password from PP
