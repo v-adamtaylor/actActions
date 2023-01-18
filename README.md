@@ -6,6 +6,9 @@ To Do:
    -actually, you will not need that if you use the username & password, duh.
    -So, use Azure CLI step to:
  -get & set username & password from PP
+ -echo
  -use username & password set in previous step to login
+ -echo
  -set the setting
- -done
+ -echo
+ -done!
