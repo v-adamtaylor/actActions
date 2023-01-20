@@ -11,7 +11,6 @@ on:
   workflow_dispatch:
 
 env:
-  myTestVariable: 'This is a Test!! If it passes; Hurray!!!'
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
   PYTHON_VERSION: '3.9' # set this to the python version to use (supports 3.6, 3.7, 3.8)
 
@@ -66,7 +65,6 @@ jobs:
           app-name: 'act-actions-functionapp'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C317379802FC48C4A800BF2963BD0171 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_16E3AA0AB419418A9A1C938AC34F80E6 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
-          mynewvalue: 'this is a test'
